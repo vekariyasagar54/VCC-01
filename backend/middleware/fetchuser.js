@@ -1,5 +1,5 @@
 var jwt = require('jsonwebtoken');
-const JWT_SECRET = 'sagarisbadb$oy';
+const JWT_SECRET = SEC_KEY;
 
 const fetchuser = (req, res, next) => {
     // Get the user from the jwt token and add id to req object
