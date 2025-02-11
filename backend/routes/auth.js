@@ -7,7 +7,7 @@ const bcrypt = require('bcryptjs');
 var jwt = require('jsonwebtoken');
 
 //put it .env file
-const JWT_SECRET = 'sagarisbadb$oy';
+const JWT_SECRET = SEC_KEY ;
 
 
 // Create a User using: POST "/api/auth/createuser". No login required
