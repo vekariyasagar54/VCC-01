@@ -2,7 +2,7 @@ import NoteContext from "./noteContext";
 import { useState } from "react";
 
 const NoteState = (props) => {
-  const host = "http://localhost:5000";
+  const host = "API_KEY";
   const notesInitial = [];
   const authtoken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjc4ZThiYzYzMjAyMzg0N2Q0Njg5OGI2In0sImlhdCI6MTczNzM5NTE1OH0.ibVhhmy3J7H1rZ1O4pIzOn3Y5YHTvN4rIFfKbDe9n90"
   const [notes, setNotes] = useState(notesInitial);
